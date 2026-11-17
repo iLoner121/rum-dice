@@ -104,3 +104,7 @@ RumDice的开发目的就是为了让想要定制自己的功能的开发者可�
 - [CS-Script](https://github.com/oleg-shilo/cs-script)
 - [Newtonsoft.Json](https://www.newtonsoft.com/json)
 - [gocqhttp](https://github.com/Mrs4s/go-cqhttp)
+
+## 自动化验证
+
+在仓库根目录运行 `python3 scripts/verify.py`（Windows 可用 `python`）。环境、覆盖及限制见 [回归测试说明](docs/testing.md)。

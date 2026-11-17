@@ -5,9 +5,11 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="tests\**" />
     <Compile Remove="Log\**" />
     <Compile Remove="Repository\**" />
     <EmbeddedResource Remove="Log\**" />

@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RumDice", "RumDice.csproj", "{E9EA27AC-2B8E-4BE1-934B-41ECBB91F4C9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RumDice.Tests", "tests\RumDice.Tests\RumDice.Tests.csproj", "{5E329889-4D88-433E-9437-469E03ED0F31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{E9EA27AC-2B8E-4BE1-934B-41ECBB91F4C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9EA27AC-2B8E-4BE1-934B-41ECBB91F4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9EA27AC-2B8E-4BE1-934B-41ECBB91F4C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E329889-4D88-433E-9437-469E03ED0F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E329889-4D88-433E-9437-469E03ED0F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E329889-4D88-433E-9437-469E03ED0F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E329889-4D88-433E-9437-469E03ED0F31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E329889-4D88-433E-9437-469E03ED0F31} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {472CF01C-A38D-49A4-B218-C1F8FA612B25}
